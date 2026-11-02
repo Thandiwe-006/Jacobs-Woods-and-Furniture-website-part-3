@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob's Woods and Furniture | Contact Us</title>
+    <link rel="stylesheet" href="css_assests/style.css">
+    <link href="js_assests/scripts.js" defer></scripts>
+    
+</head>
+<body>
+    <header>
+     <img src="_images/logo.png" alt="Jacob's Woods and Furniture logo" width="70" height="70"><font size="+2">Jacob's Woods and Furniture</font>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <h2>Welcome to Jacob's Woods and Furniture! The wood  and furniture specialists.</h2>
+        <hr>
+        
+        <!-- this is the contact information section -->
+        <h3>Contact Information</h3>
+        <p>If you have any questions or would like to place an order, please feel free to contact us:</p>
+        <p><strong>Phone:</strong> (012) 456-7890</p>
+        <p><strong>Email:</strong> info@jacobswoodsandfurniture.com</p>
+        <p><strong>Address 1:</strong> 48 Capten Street, Polokwane, Limpopo</p>
+        <p><strong>Address 2:</strong> 53 Bosman Street, Pretoria, Gauteng</p>
+        <p><strong>Address 3:</strong> 67 Albert Avenue, Durban, KwaZulu-Natal</p>
+        <img src="_images/logo.png" width="300" height="300">
+
+        <!-- Contact Form -->
+        <form id="contactForm" action="mailto:info@jacobswoodsandfurniture.com" method="post" enctype="text/plain">
+            <label for="contactName">Your Name:</label>
+                <input type="text" id="contactName" name="name" required><br><br>
+            <label for="contactEmail">Your Email:</label>
+                <input type="email" id="contactEmail" name="email" required><br><br>
+            <label for="messageType">Message Type:</label>
+                <select id="messageType" name="type" required>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Complaint">Complaint</option>
+                    <option value="Feedback">Feedback</option>
+                </select><br><br>
+            <label for="contactMessage">Your Message:</label><br>
+                <textarea id="contactMessage" name="message" rows="6" cols="40" required></textarea><br><br>
+                <input type="submit" value="Generate and Send Email">
+        </form>
+        <div id="emailPreview" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc; display: none;">
+        <h4>Email Preview (Compiled):</h4>
+        <p id="previewText"></p>
+        </div>
+    </main>
+    <footer>
+         <img src="_images/logo.png" alt="Jacob's Woods and Furniture logo" width="70" height="70">
+        <p>&copy; 2023 Jacob's Woods and Furniture. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://www.facebook.com/jacobswoodsandfurniture" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/jacobswoodsandfurniture" target="_blank">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/jacobswoodsandfurniture" target="_blank">TikTok</a></li>
+        </ul>
+        <p>HELP & SUPPORT</p>
+        <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+    </footer> 
+</body>
+</html>
